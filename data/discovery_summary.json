@@ -9,73 +9,109 @@
     "known_within_2p5km_under_canopy": 132,
     "top45_remote_also_intact_in_modern_esri_sat": 45
   },
-  "unmapped_discoveries_public_summary": [
+  "unnamed_complexes": [
     {
       "id": "NC-1",
       "strip_id": "South_NFI_l2s450",
-      "approx_region": "Calakmul Mun., Campeche (~18.3N, 90.0W)",
+      "lat": 18.28691,
+      "lon": -90.01315,
+      "google_maps": "https://www.google.com/maps?q=18.28691,-90.01315&t=k&z=17",
+      "google_earth": "https://earth.google.com/web/@18.28691,-90.01315,215a,800d,35y,0h,0t,0r",
+      "region": "Calakmul Mun., Campeche",
       "nearest_eaams": "Esperanza (12.1 km)",
       "mounds": 17,
       "rect_mounds": 8,
       "max_relief_m": 4.91,
       "plaza_area_m2": 978.9,
-      "chm_median_m": 16.18
+      "chm_median_m": 16.18,
+      "video_mp4": "media/sim-nc1-twin-pyramid-acropolis.mp4",
+      "sheet_png": "media/raw-hunt-new-candidate-1-pointcloud.png"
     },
     {
       "id": "NC-2",
       "strip_id": "South_NFI_l2s446",
-      "approx_region": "Calakmul / Escarcega, Campeche (~18.4N, 90.2W)",
+      "lat": 18.4265,
+      "lon": -90.19837,
+      "google_maps": "https://www.google.com/maps?q=18.42650,-90.19837&t=k&z=17",
+      "google_earth": "https://earth.google.com/web/@18.42650,-90.19837,195a,800d,35y,0h,0t,0r",
+      "region": "Calakmul / Escarcega, Campeche",
       "nearest_eaams": "Tuxpena (8.0 km)",
       "mounds": 9,
       "rect_mounds": 2,
       "max_relief_m": 8.51,
       "plaza_area_m2": "terraced",
-      "chm_median_m": 14.15
+      "chm_median_m": 14.15,
+      "video_mp4": "media/sim-nc2-monumental-pyramid.mp4",
+      "sheet_png": "media/raw-hunt-new-candidate-2-pointcloud.png"
     },
     {
       "id": "NC-3",
       "strip_id": "Centro_GLAS_l1s465",
-      "approx_region": "Hopelchen / Bacalar Borderlands (~19.2N, 89.2W)",
+      "lat": 19.15266,
+      "lon": -89.16487,
+      "google_maps": "https://www.google.com/maps?q=19.15266,-89.16487&t=k&z=17",
+      "google_earth": "https://earth.google.com/web/@19.15266,-89.16487,130a,800d,35y,0h,0t,0r",
+      "region": "Hopelchen / Bacalar Borderlands",
       "nearest_eaams": "Xpaicheil (12.1 km)",
       "mounds": 10,
       "rect_mounds": 3,
       "max_relief_m": 5.58,
       "plaza_area_m2": 476.1,
-      "chm_median_m": 12.22
+      "chm_median_m": 12.22,
+      "video_mp4": "media/sim-nc3-hilltop-temple-plaza.mp4",
+      "sheet_png": "media/raw-hunt-new-candidate-3-pointcloud.png"
     },
     {
       "id": "NC-4",
       "strip_id": "South_GLAS_l2s437",
-      "approx_region": "Escarcega / Champoton, Campeche (~18.8N, 90.7W)",
+      "lat": 18.76349,
+      "lon": -90.68341,
+      "google_maps": "https://www.google.com/maps?q=18.76349,-90.68341&t=k&z=17",
+      "google_earth": "https://earth.google.com/web/@18.76349,-90.68341,95a,800d,35y,0h,0t,0r",
+      "region": "Escarcega / Champoton, Campeche",
       "nearest_eaams": "Lake Pan Caliente (19.6 km)",
       "mounds": 11,
       "rect_mounds": 5,
       "max_relief_m": 3.4,
       "plaza_area_m2": 301.9,
-      "chm_median_m": 15.39
+      "chm_median_m": 15.39,
+      "video_mp4": "media/sim-nc4-remote-courtyard.mp4",
+      "sheet_png": "media/raw-hunt-new-candidate-4-pointcloud.png"
     },
     {
       "id": "NC-5",
       "strip_id": "South_NFI_l2s445",
-      "approx_region": "Escarcega / Calakmul, Campeche (~18.5N, 90.2W)",
+      "lat": 18.5066,
+      "lon": -90.24067,
+      "google_maps": "https://www.google.com/maps?q=18.50660,-90.24067&t=k&z=17",
+      "google_earth": "https://earth.google.com/web/@18.50660,-90.24067,125a,800d,35y,0h,0t,0r",
+      "region": "Escarcega / Calakmul, Campeche",
       "nearest_eaams": "Chen Laguna (10.7 km)",
       "mounds": 12,
       "rect_mounds": 3,
       "max_relief_m": 4.3,
       "plaza_area_m2": 454.0,
-      "chm_median_m": 12.07
+      "chm_median_m": 12.07,
+      "video_mp4": "media/sim-nc5-lshaped-courtyard.mp4",
+      "sheet_png": "media/raw-hunt-new-candidate-5-pointcloud.png"
     },
     {
       "id": "NC-6",
       "strip_id": "Centro_GLAS_l1s463",
-      "approx_region": "Bacalar Mun., Quintana Roo (~19.0N, 89.1W)",
+      "lat": 18.97127,
+      "lon": -89.13886,
+      "google_maps": "https://www.google.com/maps?q=18.97127,-89.13886&t=k&z=18",
+      "google_earth": "https://earth.google.com/web/@18.97127,-89.13886,102a,600d,35y,0h,0t,0r",
+      "region": "Bacalar Mun., Quintana Roo (830 m E of Campeche)",
       "nearest_eaams": "Sacbecan (8.6 km); Valeriana (20.3 km)",
       "mounds": 23,
       "rect_mounds": 6,
       "max_relief_m": 3.6,
       "plaza_area_m2": 1600.0,
-      "chm_median_m": 11.4
+      "chm_median_m": 11.4,
+      "video_mp4": "media/sim-nc6-borderland-acropolis.mp4",
+      "sheet_png": "media/raw-hunt-new-candidate-6-pointcloud.png"
     }
   ],
-  "note": "Exact 5-decimal coordinates of unmapped complexes are withheld per SAA and INAH archaeological protection guidelines."
+  "literature_status": "Absent from EAAMS (5,223 named sites) and INAH SIC public directory; located on Yuc_South and Yuc_Centro NASA G-LiHT transects reprocessed and mapped at regional scale by Estrada-Belli et al. (2025, doi:10.1016/j.jasrep.2025.105288), Schroder et al. (2020), and Britton (2026)."
 }
