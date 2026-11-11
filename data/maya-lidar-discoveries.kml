@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pan-Yucatan Airborne LiDAR Maya Discoveries (NC-1 to NC-6)</name>
+    <description>Exact WGS84 coordinates from NASA G-LiHT 2013 &amp; Britton 2026 OpenTopography 0.33m LiDAR.</description>
+    <Folder>
+      <name>6 Unmapped Maya Complexes (NC-1 to NC-6)</name>
+      <Placemark>
+        <name>NC-1: Twin-Pyramid Rectangular Acropolis &amp; Courtyard (South_NFI_l2s450)</name>
+        <description>17 mounds (8 rectangular, 4/4 plaza quadrants), twin +4.9m &amp; +4.8m pyramids, 979 m² leveled plaza under 16.2m closed forest canopy. 12.1 km NNE of Esperanza; 29 km NW of Calakmul.</description>
+        <Point><coordinates>-90.01315,18.28691,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>NC-1b: Companion 10-Mound Platform Complex (South_NFI_l2s450)</name>
+        <description>10 mounds (+6.1m &amp; +4.1m relief) under 15.6m closed forest canopy, 2.1 km NW of NC-1.</description>
+        <Point><coordinates>-90.03088,18.29637,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>NC-2: 8.5 m Monumental Flat-Topped Pyramid &amp; Terraced Plaza (South_NFI_l2s446)</name>
+        <description>#1 Grammar Score (68.01); 9 mounds (4/4 quadrants), +8.5m square-based pyramid (+24.7m hilltop prominence) + 4.0m secondary mound under 14.2m closed forest canopy. 8.0 km WNW of Tuxpena; 30 km WSW of Balamku.</description>
+        <Point><coordinates>-90.19837,18.42650,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>NC-3: Hilltop Square Temple-Platform &amp; Courtyard (Centro_GLAS_l1s465)</name>
+        <description>10 mounds (4/4 quadrants), +5.6m summit temple + +3.8m flanking mound + 476 m² leveled hilltop plaza under 12.2m canopy. 12.1 km NNE of Xpaicheil; 31 km NE of Valeriana.</description>
+        <Point><coordinates>-89.16487,19.15266,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>NC-4: Ultra-Remote Orthogonal Platform &amp; Courtyard (South_GLAS_l2s437)</name>
+        <description>11 mounds (5 crisp rectangles, 4/4 quadrants), +3.4m &amp; +2.7m platforms around a 302 m² leveled courtyard under 15.4m canopy. 19.6 km WNW of Lake Pan Caliente; 22 km NNE of Escarcega.</description>
+        <Point><coordinates>-90.68341,18.76349,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>NC-5: Rectangular Platform &amp; L-Shaped Courtyard Complex (South_NFI_l2s445)</name>
+        <description>12 mounds (4/4 quadrants), +4.3m &amp; +3.7m platforms + L-shaped range buildings around a 454 m² leveled plaza under 12.1m canopy. 10.7 km WNW of Chen Laguna; 9 km S of Constitucion/Silvituc.</description>
+        <Point><coordinates>-90.24067,18.50660,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>NC-6 (Candidate C): 40x40 m Rimmed Square Platform (Centro_GLAS_l1s463)</name>
+        <description>40x40 m raised square platform (+2.2m relief) inside a 650x300 m Maya settlement complex under 6-19m forest canopy, 30m N of rural dirt road. 8.6 km NW of Sacbecan; 20.3 km ENE of Valeriana.</description>
+        <Point><coordinates>-89.13886,18.97127,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>NC-6 West: 140x110 m Western Acropolis &amp; L-Plaza (Centro_GLAS_l1s463)</name>
+        <description>Western Acropolis (+3.6m mounds) 150m WNW of the 40x40m square platform on Centro_GLAS_l1s463.</description>
+        <Point><coordinates>-89.14031,18.97211,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Earlier Comparison Sites (Candidate E, D, A, B)</name>
+      <Placemark>
+        <name>Candidate E: Chakanbakan Suburban Courtyard &amp; Causeways (Centro_GLAS_l1s455)</name>
+        <description>Known Chakanbakan periphery (4.8 km SE of INAH Zona Arqueologica Chakanbakan, 4.3 km SE of Laguna Om). 4-mound enclosed courtyard (+6.4m relief) under 14-21m canopy.</description>
+        <Point><coordinates>-89.06180,18.41736,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Candidate D: Calakmul Hinterland Settlement (South_NFI_l2s452)</name>
+        <description>Known Calakmul Biosphere landscape (14.8 km NW of Calakmul, 9.4 km NE of Multun).</description>
+        <Point><coordinates>-89.88850,18.21570,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

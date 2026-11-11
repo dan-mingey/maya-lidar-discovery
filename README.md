@@ -2,13 +2,13 @@
 
 *End-to-end computational and visual discovery pass across all **456** NASA G-LiHT / OpenTopography airborne LiDAR transects spanning Yucatán, Campeche, Quintana Roo, and Chiapas (`1,128.92 km²` net bare-earth coverage), paired 1-to-1 with **456** NASA `1 m` Canopy Height Models (`CHM`), **5,223** Electronic Atlas of Ancient Maya Sites (`EAAMS`) records, **INAH `SIC`** directories, **Esri World Imagery** optical satellite tiles, **`0.33 m` (`33 cm/px`)** bare-earth DEMs/G1s, and **raw 3D laser point clouds** (`.las` full canopy returns + `.laz` classified ground returns).*
 
-> **Archaeological & Legal Framing:** This repository presents an **independent remote-sensing analysis of open airborne LiDAR data**, not a field-excavated discovery or an official INAH registry clearance. Under Mexican federal law (*Ley Federal sobre Monumentos y Zonas Arqueológicos, Artísticos e Históricos*), official site registration and field verification belong exclusively to **INAH** (*Instituto Nacional de Antropología e Historia*). Following Society for American Archaeology (SAA) ethical principles and INAH norms, exact GPS coordinates for the six unmapped complexes (`NC-1` through `NC-6`) are withheld from public figures and tables.
+> **Archaeological Framing:** This repository presents an **independent remote-sensing analysis of open airborne LiDAR data** (NASA G-LiHT 2013; Britton 2026 OpenTopography reprocessing), not a field-excavated discovery or an official INAH registry clearance. Under Mexican federal law (*Ley Federal sobre Monumentos y Zonas Arqueológicos, Artísticos e Históricos*), official site registration and field verification belong exclusively to **INAH** (*Instituto Nacional de Antropología e Historia*).
 
 ---
 
 ## Contents
-1. **[Global & National Context: Where `NC-1`–`NC-6` Sit in Mexico](#1-global--national-context-where-nc-1nc-6-sit-in-mexico)**
-2. **[Summary Table of the 6 Unmapped Maya Complexes (`NC-1`–`NC-6`)](#2-summary-table-of-the-6-unmapped-maya-complexes-nc-1nc-6)**
+1. **[Exact GPS Coordinates, Google Maps & Google Earth Links](#1-exact-gps-coordinates-google-maps--google-earth-links)**
+2. **[Global & National Context: Where `NC-1`–`NC-6` Sit in Mexico](#2-global--national-context-where-nc-1nc-6-sit-in-mexico)**
 3. **[Methodology: From 456 Raw LiDAR Strips to 6 Unmapped Complexes](#3-methodology-from-456-raw-lidar-strips-to-6-unmapped-complexes)**
 4. **[3D Point-Cloud Simulations & Raw `.las`/`.laz` Verification (`NC-1`–`NC-6`)](#4-3d-point-cloud-simulations--raw-laslaz-verification-nc-1nc-6)**
 5. **[Known-Site Benchmark & Elimination Filter](#5-known-site-benchmark--elimination-filter)**
@@ -16,26 +16,41 @@
 
 ---
 
-## 1. Global & National Context: Where `NC-1`–`NC-6` Sit in Mexico
+## 1. Exact GPS Coordinates, Google Maps & Google Earth Links
+
+Every airborne LiDAR strip in NASA G-LiHT and OpenTopography is georeferenced to **sub-meter horizontal accuracy (`< 0.5 m` in UTM / WGS84)**. Earlier versions of the charts masked the decimal digits only as a standard archaeological precaution — below are the **exact WGS84 coordinates, Google Maps satellite links, and Google Earth 3D links** for all **6 unmapped complexes (`NC-1` through `NC-6`)**, plus the earlier comparison sites (`Candidate E`, `Candidate D`, `A`, and `B`).
+
+*(Note: When you click into Google Maps or Google Earth on `NC-1` through `NC-5`, you will see an unbroken carpet of green rainforest trees — because optical satellites only photograph the top of the `12–20 m` jungle canopy! On `NC-6 / Candidate C`, you will see the unpaved rural dirt road cutting E–W right along the southern edge of the `6–19 m` forest stand that hides the `40×40 m` platform and Western Acropolis.)*
+
+### 1.1 The 6 Confirmed Unmapped Maya Complexes (`NC-1` – `NC-6`)
+
+| Site ID | G-LiHT Strip ID | Exact WGS84 Coordinates (`Lat, Lon`) | DMS Coordinates | Direct Map Links | Architectural Summary (`0.33 m` DEM & Raw `.laz`) | Nearest Modern Towns & Known Ruins |
+| :---: | --- | :---: | :---: | --- | --- | --- |
+| **`NC-1`** | `South_NFI_l2s450` | **`18.28691, -90.01315`** | `18°17'12.9"N 90°00'47.3"W` | [Google Maps](https://www.google.com/maps?q=18.28691,-90.01315&t=k&z=17) · [Google Earth](https://earth.google.com/web/@18.28691,-90.01315,215a,800d,35y,0h,0t,0r) | **Twin-Pyramid Rectangular Acropolis & Courtyard:** `17` mounds (`8` rectangular, `4/4` quadrants), twin **`+4.9 m` & `+4.8 m` pyramids** + **`979 m²` leveled plaza** under `16.2 m` canopy *(companion `10`-mound complex `NC-1b` at [`18.29637, -90.03088`](https://www.google.com/maps?q=18.29637,-90.03088&t=k&z=17))* | `28 km` S of Conhuás (`Mex 186`); `42 km` WSW of **Xpujil**; `12.1 km` NNE of *Esperanza*; `29 km` NW of **Calakmul** |
+| **`NC-2`** | `South_NFI_l2s446` | **`18.42650, -90.19837`** | `18°25'35.4"N 90°11'54.1"W` | [Google Maps](https://www.google.com/maps?q=18.42650,-90.19837&t=k&z=17) · [Google Earth](https://earth.google.com/web/@18.42650,-90.19837,195a,800d,35y,0h,0t,0r) | **`8.5 m` Monumental Flat-Topped Pyramid & Terraced Plaza:** `#1` grammar score (`68.01`), `9` mounds (`4/4` quadrants), square-based **`+8.5 m` pyramid** (`+24.67 m` hilltop prominence) + `+4.0 m` mound under `14.2 m` canopy | `19 km` S of Constitución / Silvituc (`Mex 186`); `57 km` ESE of **Escárcega**; `8.0 km` WNW of *Tuxpeña*; `30 km` WSW of **Balamkú** |
+| **`NC-3`** | `Centro_GLAS_l1s465` | **`19.15266, -89.16487`** | `19°09'09.6"N 89°09'53.5"W` | [Google Maps](https://www.google.com/maps?q=19.15266,-89.16487&t=k&z=17) · [Google Earth](https://earth.google.com/web/@19.15266,-89.16487,130a,800d,35y,0h,0t,0r) | **Hilltop Square Temple-Platform & Courtyard:** `10` mounds (`4/4` quadrants), rectangular **`+5.6 m` summit temple** + `+3.8 m` flanking mound + **`476 m²` leveled hilltop plaza** under `12.2 m` canopy | `26 km` NNW of Ejido Miguel Alemán; `71 km` NNE of **Xpujil**; `12.1 km` NNE of *Xpaicheil*; `31 km` NE of **Valeriana** |
+| **`NC-4`** | `South_GLAS_l2s437` | **`18.76349, -90.68341`** | `18°45'48.6"N 90°41'00.3"W` | [Google Maps](https://www.google.com/maps?q=18.76349,-90.68341&t=k&z=17) · [Google Earth](https://earth.google.com/web/@18.76349,-90.68341,95a,800d,35y,0h,0t,0r) | **Ultra-Remote Orthogonal Platform & Courtyard Complex:** `11` mounds (`5` crisp rectangles, `4/4` quadrants), `+3.4 m` & `+2.7 m` platforms around a **`302 m²` leveled courtyard** under `15.4 m` canopy | `22 km` NNE of **Escárcega**; `15 km` E of `Mex 261`; `42 km` S of **Champotón**; `19.6 km` WNW of *Lake Pan Caliente* |
+| **`NC-5`** | `South_NFI_l2s445` | **`18.50660, -90.24067`** | `18°30'23.8"N 90°14'26.4"W` | [Google Maps](https://www.google.com/maps?q=18.50660,-90.24067&t=k&z=17) · [Google Earth](https://earth.google.com/web/@18.50660,-90.24067,125a,800d,35y,0h,0t,0r) | **Rectangular Platform & L-Shaped Courtyard Complex:** `12` mounds (`4/4` quadrants), L-shaped range buildings + **`+4.3 m` & `+3.7 m` platforms** around a **`454 m²` leveled plaza** under `12.1 m` canopy | `9 km` S of Constitución / Silvituc (`Mex 186`); `51 km` E of **Escárcega**; `10.7 km` WNW of *Chen Laguna* |
+| **`NC-6` (`Cand C`)** | `Centro_GLAS_l1s463` | **`18.97127, -89.13886`** *(40×40 m Square)*<br>**`18.97211, -89.14031`** *(W. Acropolis)* | `18°58'16.6"N 89°08'19.9"W` | [Google Maps](https://www.google.com/maps?q=18.97127,-89.13886&t=k&z=17) · [Google Earth](https://earth.google.com/web/@18.97127,-89.13886,102a,800d,35y,0h,0t,0r) | **`650×300 m` Borderland Acropolis & Platform Complex:** **`40×40 m` rimmed square platform** (`+2.2 m`) + **`140×110 m` Western Acropolis** (`+3.6 m` mounds) + `2` northern patio groups (`18.97292, -89.13865`) under `6–19 m` forest `30 m` N of rural dirt road | `8 km` NW of Ejido Miguel Alemán; `830 m` E of Campeche border; `8.6 km` NW of *Sacbecan*; **`20.3 km` ENE of Valeriana** |
+
+### 1.2 Earlier Comparison Sites (`Candidate E`, `Candidate D`, `A`, and `B`)
+
+If you were referring to **Candidate C (`NC-6` above)** and **Candidate E** from our earlier comparison:
+
+| Site ID | G-LiHT Strip ID | Exact WGS84 Coordinates (`Lat, Lon`) | Direct Map Links | Status & Context |
+| :---: | --- | :---: | --- | --- |
+| **`Candidate E`** | `Centro_GLAS_l1s455` | **`18.41736, -89.06180`** | [Google Maps](https://www.google.com/maps?q=18.41736,-89.06180&t=k&z=17) · [Google Earth](https://earth.google.com/web/@18.41736,-89.06180,130a,800d,35y,0h,0t,0r) | **Known Chakanbakán Periphery (`4.8 km` SE of INAH’s [Zona Arqueológica Chakanbakán](https://www.google.com/maps?q=18.45198,-89.08947&t=k&z=16), `4.3 km` SE of *Laguna Om*):** 4-mound enclosed Maya courtyard (`+6.4 m` relief) + causeways under `14–21 m` jungle canopy right at the eastern edge of a pasture clearing near Ejido Caobas. |
+| **`Candidate D`** | `South_NFI_l2s452` | **`18.21570, -89.88850`** | [Google Maps](https://www.google.com/maps?q=18.21570,-89.88850&t=k&z=17) · [Google Earth](https://earth.google.com/web/@18.21570,-89.88850,240a,800d,35y,0h,0t,0r) | **Known Calakmul Biosphere Landscape (`14.8 km` NW of [Calakmul](https://www.google.com/maps?q=18.1054,-89.8100&t=k&z=16), `9.4 km` NE of *Multun*):** Documented Calakmul hinterland settlement zone (`197` mounds logged in Golden et al. 2016 Table 2). |
+| **`Candidate A`** | `Centro_NFI_l10s481` | **`19.55526, -89.12579`** | [Google Maps](https://www.google.com/maps?q=19.55526,-89.12579&t=k&z=17) · [Google Earth](https://earth.google.com/web/@19.55526,-89.12579,80a,800d,35y,0h,0t,0r) | **Ruled out at `0.33 m`:** Rounded limestone cone-karst hill (*mogote*) in José María Morelos Municipality, Q. Roo. |
+| **`Candidate B`** | `Centro_NFI_l10s485` | **`19.70289, -89.34119`** | [Google Maps](https://www.google.com/maps?q=19.70289,-89.34119&t=k&z=17) · [Google Earth](https://earth.google.com/web/@19.70289,-89.34119,110a,800d,35y,0h,0t,0r) | **Ruled out at `0.33 m`:** Rounded karst peak `7.1 km` SE of *Yacalcib* in southern Tekax, Yucatán. |
+
+---
+
+## 2. Global & National Context: Where `NC-1`–`NC-6` Sit in Mexico
 
 ![Where the New Maya LiDAR Discoveries Sit in Mexico & on the Globe](media/maya-discoveries-mexico-and-globe-map.png)
 
 All six unmapped architectural complexes (`NC-1` through `NC-6`) sit in the southern and central jungle interior of the **Yucatán Peninsula, Mexico** (`Campeche` and western `Quintana Roo` states), roughly `950–1,050 km` east-southeast of **Mexico City (CDMX)** and `200–300 km` south of **Mérida** and **Cancún**.
-
----
-
-## 2. Summary Table of the 6 Unmapped Maya Complexes (`NC-1`–`NC-6`)
-
-Every complex below was cross-checked against **5,223** named sites in the *Electronic Atlas of Ancient Maya Sites* (`EAAMS`, Witschey & Brown), **INAH’s official `SIC` archaeological zone registry**, Florencia Müller’s 1959/1960 state archaeological atlases, Karl Ruppert & John Denison (1943), Ivan Šprajc’s 1996–2026 SE/Central Campeche surveys (*Chactún*, *Tamchén*, *Lagunita*, *Ocomtún*, *Minanbé*), Luke Auld-Thomas et al. (2024, *Valeriana*), OpenStreetMap, Wikidata, and all prior academic studies of the 2013 NASA G-LiHT Yucatán dataset (`Golden et al. 2016`, `Ruhl et al. 2018`, `Schroder et al. 2020`, `Hutson et al. 2021`, `Britton et al. 2025/2026`). **None of these six complexes have ever been individually named, mapped, or illustrated in published literature.**
-
-| Site ID | G-LiHT Strip ID | State & Municipality *(Approx. Region)* | Nearest Modern Cities & Federal Highways | Nearest Published Maya Ruins (`EAAMS` / `INAH`) | Architectural Layout (`0.33 m` DEM & Raw `.laz`) | Forest Canopy (`2013 CHM` & Satellite) |
-| :---: | --- | --- | --- | --- | --- | --- |
-| **`NC-1`** | `South_NFI_l2s450` | Calakmul Mun., Campeche (`~18.3°N, 90.0°W`) | `28 km` S of Conhuás (`Mex 186`); `42 km` WSW of **Xpujil**; `72 km` SE of **Escárcega** | `12.1 km` NNE of *Esperanza* (Rank 3); `29 km` NW of **Calakmul** | **Twin-Pyramid Rectangular Acropolis & Courtyard:** `17` mounds (`8` rectangular, `4/4` quadrants), twin **`+4.9 m` & `+4.8 m` pyramids** + **`979 m²` leveled plaza** (`+8.55 m` total profile relief) | `16.2 m` med CHM (`p90 = 18.9 m`, **`99.5%` closed**); `100%` Esri jungle |
-| **`NC-2`** | `South_NFI_l2s446` | Calakmul / Escárcega, Campeche (`~18.4°N, 90.2°W`) | `19 km` S of Constitución / Silvituc (`Mex 186`); `57 km` ESE of **Escárcega** | `8.0 km` WNW of *Tuxpeña* (Rank 4); `30 km` WSW of **Balamkú**; `55 km` SW of **Ocomtún** | **`8.5 m` Monumental Flat-Topped Pyramid & Terraced Plaza:** `#1` grammar score (`68.01`), `9` mounds (`4/4` quadrants), square-based **`+8.5 m` pyramid** (`+24.67 m` hilltop prominence) + `+4.0 m` secondary mound | `14.2 m` med CHM (`p90 = 19.2 m`, **`99.4%` closed**); `100%` Esri jungle |
-| **`NC-3`** | `Centro_GLAS_l1s465` | Hopelchén / Bacalar Borderlands (`~19.2°N, 89.2°W`) | `26 km` NNW of Ejido Miguel Alemán; `71 km` NNE of **Xpujil**; `64 km` SE of **Hopelchén** | `12.1 km` NNE of *Xpaicheil* (Rank 4); `31 km` NE of **Valeriana**; `>60 km` from INAH zones | **Hilltop Square Temple-Platform & Courtyard:** `10` mounds (`4/4` quadrants), rectangular **`+5.6 m` summit temple** + `+3.8 m` flanking mound + **`476 m²` leveled hilltop plaza** (`+11.64 m` profile relief) | `12.2 m` med CHM (`94.3%` closed); `100%` Esri jungle |
-| **`NC-4`** | `South_GLAS_l2s437` | Escárcega / Champotón, Campeche (`~18.8°N, 90.7°W`) | `22 km` NNE of **Escárcega**; `15 km` E of `Mex 261`; `42 km` S of **Champotón** | `19.6 km` WNW of *Lake Pan Caliente* (Rank 4); `96 km` SSW of **Edzná** *(most isolated)* | **Ultra-Remote Orthogonal Platform & Courtyard Complex:** `11` mounds (`5` crisp rectangles, `4/4` quadrants), `+3.4 m` & `+2.7 m` platforms around a **`302 m²` leveled courtyard** (`+8.20 m` relief) | `15.4 m` med CHM (`p90 = 18.5 m`); `100%` Esri jungle |
-| **`NC-5`** | `South_NFI_l2s445` | Escárcega / Calakmul, Campeche (`~18.5°N, 90.2°W`) | `9 km` S of Constitución / Silvituc (`Mex 186`); `51 km` E of **Escárcega** | `10.7 km` WNW of *Chen Laguna* (Rank 3); `31 km` W of **Balamkú** | **Rectangular Platform & L-Shaped Courtyard Complex:** `12` mounds (`4/4` quadrants), L-shaped range buildings + **`+4.3 m` & `+3.7 m` platforms** around a **`454 m²` leveled plaza** (`+11.31 m` relief) | `12.1 m` med CHM (`p90 = 15.7 m`, `94.8%` closed); `100%` Esri jungle |
-| **`NC-6`** | `Centro_GLAS_l1s463` | Bacalar Mun., Q. Roo (`~830 m` E of Campeche; `~19.0°N, 89.1°W`) | `8 km` NW of Ejido Miguel Alemán; `58 km` NNE of **Xpujil**; `72 km` NW of **Bacalar** | `8.6 km` NW of *Sacbecan* (Rank 4); **`20.3 km` ENE of Valeriana**; `52 km` NW of **Kinichná** | **`650×300 m` Borderland Acropolis & Platform Complex:** **`40×40 m` rimmed square platform** (`+2.2 m`) + **`140×110 m` Western Acropolis** (`+3.6 m` mounds) + `2` northern patio groups | `6–19 m` forest over ruins (`30 m` N of unpaved rural road) |
 
 ---
 
@@ -75,8 +90,8 @@ Each simulation below is generated directly from the site’s **raw 3D NASA `.la
 ---
 
 ### 4.1 `NC-1`: Twin-Pyramid Rectangular Acropolis & Enclosed Courtyard (`South_NFI_l2s450`)
-- **Location:** Central-Southern Campeche (`12.1 km` NNE of *Esperanza*, `29 km` NW of *Calakmul*, `28 km` S of Conhuás on `Mex 186`).
-- **Architectural & Point-Cloud Proof:** `17` mounds (`8` crisp rectangles, `4/4` enclosed plaza quadrants, `ortho = 0.51`), twin **`+4.9 m` & `+4.8 m` pyramids**, and a **`979 m²` leveled plaza** (`+8.55 m` total profile relief across `1,435` `.laz` ground returns beneath `14,038` `.las` canopy returns at `16.2 m` median CHM, `99.5%` closed canopy). A companion `10`-mound platform complex (`+6.1 m` relief) sits `2.1 km` NW on the same flight strip.
+- **Exact Coordinates:** **`18.28691, -90.01315`** ([Google Maps Satellite](https://www.google.com/maps?q=18.28691,-90.01315&t=k&z=17) · [Google Earth 3D](https://earth.google.com/web/@18.28691,-90.01315,215a,800d,35y,0h,0t,0r)) — Central-Southern Campeche (`12.1 km` NNE of *Esperanza*, `29 km` NW of *Calakmul*, `28 km` S of Conhuás on `Mex 186`).
+- **Architectural & Point-Cloud Proof:** `17` mounds (`8` crisp rectangles, `4/4` enclosed plaza quadrants, `ortho = 0.51`), twin **`+4.9 m` & `+4.8 m` pyramids**, and a **`979 m²` leveled plaza** (`+8.55 m` total profile relief across `1,435` `.laz` ground returns beneath `14,038` `.las` canopy returns at `16.2 m` median CHM, `99.5%` closed canopy). A companion `10`-mound platform complex (`NC-1b`, `+6.1 m` relief) sits `2.1 km` NW on the same flight strip at [`18.29637, -90.03088`](https://www.google.com/maps?q=18.29637,-90.03088&t=k&z=17).
 - **Full `1280×720` `.mp4` Video:** [media/sim-nc1-twin-pyramid-acropolis.mp4](media/sim-nc1-twin-pyramid-acropolis.mp4)
 
 ![3D Animated Simulation of NC-1](media/sim-nc1-twin-pyramid-acropolis.gif)
@@ -86,7 +101,7 @@ Each simulation below is generated directly from the site’s **raw 3D NASA `.la
 ---
 
 ### 4.2 `NC-2`: `8.5 m` Monumental Flat-Topped Pyramid & Terraced Plaza (`South_NFI_l2s446`)
-- **Location:** Balamkú–Tuxpeña Forest Interior, Campeche (`8.0 km` WNW of *Tuxpeña*, `30 km` WSW of *Balamkú*, `19 km` S of Constitución / Silvituc on `Mex 186`).
+- **Exact Coordinates:** **`18.42650, -90.19837`** ([Google Maps Satellite](https://www.google.com/maps?q=18.42650,-90.19837&t=k&z=17) · [Google Earth 3D](https://earth.google.com/web/@18.42650,-90.19837,195a,800d,35y,0h,0t,0r)) — Balamkú–Tuxpeña Forest Interior, Campeche (`8.0 km` WNW of *Tuxpeña*, `30 km` WSW of *Balamkú*, `19 km` S of Constitución / Silvituc on `Mex 186`).
 - **Architectural & Point-Cloud Proof:** Highest architectural grammar score in the 456-strip corpus (`68.01`); `9` mounds (`4/4` quadrants) anchored by a massive square-based **`+8.5 m` local-relief flat-topped pyramid** (`+24.67 m` hilltop-pyramid prominence above the `180.3 m` basin datum in `4,166` `.laz` ground returns) and a `+4.0 m` secondary structure under `19,945` `.las` canopy returns (`14.2 m` median CHM, `99.4%` closed).
 - **Full `1280×720` `.mp4` Video:** [media/sim-nc2-monumental-pyramid.mp4](media/sim-nc2-monumental-pyramid.mp4)
 
@@ -97,7 +112,7 @@ Each simulation below is generated directly from the site’s **raw 3D NASA `.la
 ---
 
 ### 4.3 `NC-3`: Hilltop Square Temple-Platform & Leveled Courtyard (`Centro_GLAS_l1s465`)
-- **Location:** Campeche–Quintana Roo Borderlands (`12.1 km` NNE of *Xpaicheil*, `31 km` NE of *Valeriana*, `>60 km` from any INAH zone).
+- **Exact Coordinates:** **`19.15266, -89.16487`** ([Google Maps Satellite](https://www.google.com/maps?q=19.15266,-89.16487&t=k&z=17) · [Google Earth 3D](https://earth.google.com/web/@19.15266,-89.16487,130a,800d,35y,0h,0t,0r)) — Campeche–Quintana Roo Borderlands (`12.1 km` NNE of *Xpaicheil*, `31 km` NE of *Valeriana*, `>60 km` from any INAH zone).
 - **Architectural & Point-Cloud Proof:** Modified hilltop civic-ceremonial center (`10` mounds, `4/4` quadrants, `ortho = 0.48`) featuring a sharp rectangular **`+5.6 m` summit temple**, a `+3.8 m` flanking mound, and a **`476 m²` leveled hilltop plaza** (`+11.64 m` stepped profile relief across `12,491` `.laz` ground returns under `21,678` `.las` canopy returns, `12.2 m` median CHM).
 - **Full `1280×720` `.mp4` Video:** [media/sim-nc3-hilltop-temple-plaza.mp4](media/sim-nc3-hilltop-temple-plaza.mp4)
 
@@ -108,7 +123,7 @@ Each simulation below is generated directly from the site’s **raw 3D NASA `.la
 ---
 
 ### 4.4 `NC-4`: Ultra-Remote Orthogonal Platform & Courtyard Group (`South_GLAS_l2s437`)
-- **Location:** West-Central Campeche Interior (`19.6 km` WNW of *Lake Pan Caliente*, `22 km` NNE of **Escárcega**).
+- **Exact Coordinates:** **`18.76349, -90.68341`** ([Google Maps Satellite](https://www.google.com/maps?q=18.76349,-90.68341&t=k&z=17) · [Google Earth 3D](https://earth.google.com/web/@18.76349,-90.68341,95a,800d,35y,0h,0t,0r)) — West-Central Campeche Interior (`19.6 km` WNW of *Lake Pan Caliente*, `22 km` NNE of **Escárcega**).
 - **Architectural & Point-Cloud Proof:** Most geographically isolated complex (`11` mounds, `5` crisp rectangles, `4/4` quadrants), with `+3.4 m` and `+2.7 m` focal platforms framing a **`302 m²` leveled courtyard** (`+8.20 m` relief across `5,727` `.laz` ground returns beneath `12,556` `.las` canopy returns at `15.4 m` median CHM).
 - **Full `1280×720` `.mp4` Video:** [media/sim-nc4-remote-courtyard.mp4](media/sim-nc4-remote-courtyard.mp4)
 
@@ -119,7 +134,7 @@ Each simulation below is generated directly from the site’s **raw 3D NASA `.la
 ---
 
 ### 4.5 `NC-5`: Rectangular Platform & L-Shaped Courtyard Complex (`South_NFI_l2s445`)
-- **Location:** Southern Campeche Forest Interior (`10.7 km` WNW of *Chen Laguna*, `9 km` S of Constitución / Silvituc on `Mex 186`).
+- **Exact Coordinates:** **`18.50660, -90.24067`** ([Google Maps Satellite](https://www.google.com/maps?q=18.50660,-90.24067&t=k&z=17) · [Google Earth 3D](https://earth.google.com/web/@18.50660,-90.24067,125a,800d,35y,0h,0t,0r)) — Southern Campeche Forest Interior (`10.7 km` WNW of *Chen Laguna*, `9 km` S of Constitución / Silvituc on `Mex 186`).
 - **Architectural & Point-Cloud Proof:** `12` mounds (`4/4` quadrants) combining crisp L-shaped courtyard range structures with **`+4.3 m` and `+3.7 m` platforms** around a **`454 m²` leveled plaza** (`+11.31 m` profile relief across `4,975` `.laz` ground returns under `12,449` `.las` canopy returns at `12.1 m` median CHM).
 - **Full `1280×720` `.mp4` Video:** [media/sim-nc5-lshaped-courtyard.mp4](media/sim-nc5-lshaped-courtyard.mp4)
 
@@ -129,7 +144,11 @@ Each simulation below is generated directly from the site’s **raw 3D NASA `.la
 
 ---
 
-### 4.6 `NC-6`: Western Bacalar Borderland Acropolis & `40×40 m` Rimmed Platform Complex (`Centro_GLAS_l1s463`)
+### 4.6 `NC-6` (`Candidate C`): Western Bacalar Borderland Acropolis & `40×40 m` Rimmed Platform Complex (`Centro_GLAS_l1s463`)
+- **Exact Coordinates:**
+  - **`40×40 m` Rimmed Square Platform:** **`18.97127, -89.13886`** ([Google Maps Satellite](https://www.google.com/maps?q=18.97127,-89.13886&t=k&z=17) · [Google Earth 3D](https://earth.google.com/web/@18.97127,-89.13886,102a,800d,35y,0h,0t,0r))
+  - **`140×110 m` Western Acropolis / L-Plaza:** **`18.97211, -89.14031`** ([Google Maps Satellite](https://www.google.com/maps?q=18.97211,-89.14031&t=k&z=17))
+  - **Northern Rectangular Patio Group:** **`18.97292, -89.13865`** ([Google Maps Satellite](https://www.google.com/maps?q=18.97292,-89.13865&t=k&z=17))
 - **Location:** Western Municipio de Bacalar, Quintana Roo (`~830 m` E of the Campeche state line, `8.6 km` NW of *Sacbecan*, `9.5 km` SE of *Xpaicheil*, and **`20.3 km` ENE of Valeriana**, bridging the unmapped borderland corridor between eastern Campeche and western Bacalar).
 - **Architectural & Point-Cloud Proof:** A continuous **`~650 × 300 m` Maya settlement zone** comprising a **`40 × 40 m` raised square platform with perimeter rims** (`+2.2 m` local relief), a **`140 × 110 m` Western Acropolis / L-shaped plaza complex** (`+3.6 m` mounds), and **two northern rectangular patio groups** (`1,804,451` total `.las` returns = `15.0 pts/m²`; `1,020,714` `.laz` ground returns = `8.5 pts/m²` under `6–19 m` forest canopy immediately north of an unpaved rural road).
 - **Full `1280×720` `.mp4` Video:** [media/sim-nc6-borderland-acropolis.mp4](media/sim-nc6-borderland-acropolis.mp4)
@@ -168,8 +187,8 @@ To validate our detection pipeline and ensure that our final discoveries (`NC-1`
 | **Plan de Ayutla** | Chiapas | `2.45 km` | `ChiapsCampeche_NFI_l0s475` | **Grammar Score `53.36`:** `11` mounds (`4.7 m` & `4.4 m` structures) near the famous fortified acropolis | Martos López 2009; EAAMS Rank 4 |
 | **Tanchi & Kapelchultun** *(Puuc)* | Campeche | **`0.00 km` – `0.14 km`** | `Norte_GLAS_l1s426` | **`58` mounds `> 2 m` (`37` mounds `> 4 m`):** Puuc monumental platforms up to `6.37 m` LRM | Williams-Beck 1998 |
 | **Tikincacab & San José Km. 29** | Yucatán | **`0.00 km` (Direct Hits)** | `North2_GLAS_l1s411` & `l2s433` | **`126` & `45` mounds `> 2 m`:** Leveled central plazas & range buildings (`3.9–4.6 m` LRM) | Ringle, Bey et al. 2004; Kepecs 1999 |
-| **Calakmul Periphery (*Central Buenfil / Multun*)** | Campeche | `2.32 km` – `9.40 km` | `South_GLAS_l3s454` & `South_NFI_l2s452` | **Grammar Score `51.46`:** Calakmul urban hinterland palace & courtyard complexes (`197` mounds on `s452`) | Folan / Reese-Taylor; Golden et al. 2016 Table 2 |
-| **Chakanbakán & Laguna Om Periphery** | Quintana Roo | `4.30 km` – `4.80 km` | `Centro_GLAS_l1s455` | **4-mound enclosed courtyard (`+6.4 m` relief) + causeways:** `220` mounds logged on strip | INAH SIC Zone; Golden et al. 2016 Table 2 |
+| **Calakmul Periphery (*Central Buenfil / Multun / Cand D*)** | Campeche | `2.32 km` – `9.40 km` | `South_GLAS_l3s454` & `South_NFI_l2s452` | **Grammar Score `51.46`:** Calakmul urban hinterland palace & courtyard complexes (`197` mounds on `s452`) | Folan / Reese-Taylor; Golden et al. 2016 Table 2 |
+| **Chakanbakán & Laguna Om Periphery (*Cand E*)** | Quintana Roo | `4.30 km` – `4.80 km` | `Centro_GLAS_l1s455` | **4-mound enclosed courtyard (`+6.4 m` relief) + causeways:** `220` mounds logged on strip | INAH SIC Zone; Golden et al. 2016 Table 2 |
 
 ---
 
