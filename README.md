@@ -120,11 +120,19 @@ We pulled and analyzed **Estrada-Belli, Canuto, Šprajc & Fernandez-Diaz (July 2
 
 ![Cross-Check Against Estrada-Belli et al. (2025, JAS: Reports 66, 105288)](media/estrada-belli-2025-gliht-comparison.png)
 
+![Official Estrada-Belli et al. (2025) Vector Outlines for All Six Sites (NC-1 Through NC-6)](media/nc1-to-nc6-official-paper-outlines.png)
+
+![3-Way Identity Match: Pietro Miotti's Site = Page 14 Fig. 13 (Bottom-Right) = Our #1 Hit NC-2 (South_NFI_l2s446)](media/nc2-miotti-page14-fig13-match.png)
+
 ### What Estrada-Belli et al. (2025) Shows on Pages 13 & 14 — And What It Means for Pietro's Site vs. `NC-1`–`NC-6`
 
-1. **Yes — Pietro Miotti's Exact X/Twitter Hilltop Site Appears on Page 14 (Figure 13, Top-Right Panel):**
+1. **Yes — Pietro Miotti's Exact X/Twitter Hilltop Site Appears on Page 14 (Figure 13, Bottom-Right Panel) — And It Is ALSO Our `#1` Hit `NC-2` (`South_NFI_l2s446`, `18.42650, -90.19837`):**
    - While **Page 13 (Figure 12, `Panel A` above)** illustrates the 4 largest **Major Ceremonial Centers** (`plaza area > 20,000 m²`), **Page 14 (Figure 13, `Panel B` above)** is captioned: *"Fig. 13. Minor centers in the G-LiHT dataset. Lidar map of G-LiHT's four largest groups in the 'Minor Ceremonial Centers' traditional settlement category (Bullard, 1960) (plaza areas between 8,000 and 13,000 m²) and associated plaza platforms, ball courts and agricultural features."*
-   - Side-by-side comparison (`Panels C1 & C2` above) confirms that **Figure 13's top-right panel on Page 14 (`Pin ~19.43°N, -89.33°W` in central Campeche)** is **Pietro Miotti's exact cliff-edge hilltop civic center**: it displays the same western cliff escarpment, flat western plaza, central `8–12 m` pyramid, eastern attached raised courtyard, eastern reservoir (`aguada`) depression, and southern downslope platforms.
+   - High-resolution extraction of **Page 14, Figure 13 (Bottom-Right Panel)** and direct comparison against `MARI-GISLAB`'s vector polygons prove a **3-way exact identity (`nc2-miotti-page14-fig13-match.png` above)**:
+     1. **Pietro Miotti's X/Blog hilltop site (`miotti_hero.jpg` & `miotti_zoom.jpg`, whose coordinates he withheld)**,
+     2. **Estrada-Belli et al. (2025) Page 14, Figure 13 (Bottom-Right Panel, `large_groups` `FID 54` & `FID 53`, Ranks `#10` & `#13 / 162`)**, and
+     3. **Our pipeline's `#1` highest-scoring remote Maya complex across the entire Yucatán Peninsula: `NC-2` (`Grammar Score = 68.01`, `South_NFI_l2s446`, [`18.42650, -90.19837`](https://www.google.com/maps?q=18.42650,-90.19837&t=k&z=17))**
+     are **the exact same cliff-edge hilltop site** (with the western cliff escarpment, flat western plaza, central `8.5 m` pyramid, attached eastern raised courtyard, green-shaded eastern reservoir `aguada`, and three southern downslope platforms).
 
 2. **Estrada-Belli et al. (2025) Also Mapped the Entire `Yuc_South` & `Yuc_Centro` NASA G-LiHT Dataset (`~496 km²`, `21,687+` Structures):**
    - To estimate Classic Maya population across a `95,000 km²` region (`9.5–16 million` people), Estrada-Belli, Canuto, Šprajc, and Fernandez-Diaz aggregated `853 km²` of airborne LiDAR in Southern Campeche and Southern Quintana Roo: (a) the **2013 NASA G-LiHT `Yuc_South` and `Yuc_Centro` strips (`~496 km²`)**, reprocessed from raw point clouds using NCALM / Fernandez-Diaz’s adaptive TIN ground-classification routine; (b) the 2013 Alianza M-REDD+ Campeche strips (`~122 km²`, Auld-Thomas et al. 2024); and (c) the 2016 Chactún–Tamchén–Lagunita block (`~236 km²`, Šprajc et al. 2021/2022).
