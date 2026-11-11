@@ -1,0 +1,81 @@
+{
+  "pipeline_funnel_counts": {
+    "total_transects": 456,
+    "matched_chm_transects": 456,
+    "unique_multi_mound_complexes_all": 5693,
+    "strict_under_canopy_2013_chm": 1117,
+    "remote_gt_5km_under_canopy": 799,
+    "remote_gt_10km_under_canopy": 506,
+    "known_within_2p5km_under_canopy": 132,
+    "top45_remote_also_intact_in_modern_esri_sat": 45
+  },
+  "unmapped_discoveries_public_summary": [
+    {
+      "id": "NC-1",
+      "strip_id": "South_NFI_l2s450",
+      "approx_region": "Calakmul Mun., Campeche (~18.3N, 90.0W)",
+      "nearest_eaams": "Esperanza (12.1 km)",
+      "mounds": 17,
+      "rect_mounds": 8,
+      "max_relief_m": 4.91,
+      "plaza_area_m2": 978.9,
+      "chm_median_m": 16.18
+    },
+    {
+      "id": "NC-2",
+      "strip_id": "South_NFI_l2s446",
+      "approx_region": "Calakmul / Escarcega, Campeche (~18.4N, 90.2W)",
+      "nearest_eaams": "Tuxpena (8.0 km)",
+      "mounds": 9,
+      "rect_mounds": 2,
+      "max_relief_m": 8.51,
+      "plaza_area_m2": "terraced",
+      "chm_median_m": 14.15
+    },
+    {
+      "id": "NC-3",
+      "strip_id": "Centro_GLAS_l1s465",
+      "approx_region": "Hopelchen / Bacalar Borderlands (~19.2N, 89.2W)",
+      "nearest_eaams": "Xpaicheil (12.1 km)",
+      "mounds": 10,
+      "rect_mounds": 3,
+      "max_relief_m": 5.58,
+      "plaza_area_m2": 476.1,
+      "chm_median_m": 12.22
+    },
+    {
+      "id": "NC-4",
+      "strip_id": "South_GLAS_l2s437",
+      "approx_region": "Escarcega / Champoton, Campeche (~18.8N, 90.7W)",
+      "nearest_eaams": "Lake Pan Caliente (19.6 km)",
+      "mounds": 11,
+      "rect_mounds": 5,
+      "max_relief_m": 3.4,
+      "plaza_area_m2": 301.9,
+      "chm_median_m": 15.39
+    },
+    {
+      "id": "NC-5",
+      "strip_id": "South_NFI_l2s445",
+      "approx_region": "Escarcega / Calakmul, Campeche (~18.5N, 90.2W)",
+      "nearest_eaams": "Chen Laguna (10.7 km)",
+      "mounds": 12,
+      "rect_mounds": 3,
+      "max_relief_m": 4.3,
+      "plaza_area_m2": 454.0,
+      "chm_median_m": 12.07
+    },
+    {
+      "id": "NC-6",
+      "strip_id": "Centro_GLAS_l1s463",
+      "approx_region": "Bacalar Mun., Quintana Roo (~19.0N, 89.1W)",
+      "nearest_eaams": "Sacbecan (8.6 km); Valeriana (20.3 km)",
+      "mounds": 23,
+      "rect_mounds": 6,
+      "max_relief_m": 3.6,
+      "plaza_area_m2": 1600.0,
+      "chm_median_m": 11.4
+    }
+  ],
+  "note": "Exact 5-decimal coordinates of unmapped complexes are withheld per SAA and INAH archaeological protection guidelines."
+}
