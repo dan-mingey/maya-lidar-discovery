@@ -1,0 +1,954 @@
+[
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s473",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s473_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s473_CHM.tif",
+    "lat": 16.721996,
+    "lon": -91.164633,
+    "utm_e": 695676.23,
+    "utm_n": 1849703.29,
+    "score_1m": 46.804,
+    "grammar_raw": 37.38,
+    "n_mounds": 3,
+    "n_rect": 1,
+    "n_quads": 2,
+    "mean_rect": 0.637,
+    "mean_ra": 0.303,
+    "ortho_coh": 0.551,
+    "h1_m": 3.3,
+    "h2_m": 3.02,
+    "plaza_m2": 763.1,
+    "basal_acropolis_m": 1.84,
+    "has_sacbe_hint": true,
+    "has_aguada": false,
+    "chm_med_m": 29.03,
+    "chm_p90_m": 35.87,
+    "cleared_frac": 0.0079,
+    "dist_from_card08_km": 0.52,
+    "valid_area_m2": 72865.1,
+    "laz_pts_270m": 28254,
+    "laz_pts_per_m2": 0.388,
+    "mound_area_gt1p2m_m2": 2324.3,
+    "mound_laz_pts": 680,
+    "mound_pts_per_m2": 0.293,
+    "pct_mound_void_gt6m": 0.0,
+    "sat_1800m_forest_pct": 100.0,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+      "src": "INAH_Lit_NAD27",
+      "dist_km": 0.49
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "El Cedro",
+        "src": "EAAMS",
+        "dist_km": 3.07
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 10.81
+      },
+      "OSM": {
+        "name": "Lakan'Ha",
+        "src": "OSM",
+        "dist_km": 5.64
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 0.49
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s473_16.72200_-91.16463.npz",
+    "lc_code": "LC-01",
+    "arch_desc": "3-Mound Aligned Terrace Group",
+    "badge": "NUEVO JALISCO OUTLYING (+0.52 km)",
+    "badge_col": "#22d3ee"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s473",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s473_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s473_CHM.tif",
+    "lat": 16.714048,
+    "lon": -91.1246,
+    "utm_e": 699953.9,
+    "utm_n": 1848863.47,
+    "score_1m": 54.853,
+    "grammar_raw": 46.141,
+    "n_mounds": 8,
+    "n_rect": 2,
+    "n_quads": 3,
+    "mean_rect": 0.677,
+    "mean_ra": 0.339,
+    "ortho_coh": 0.332,
+    "h1_m": 2.88,
+    "h2_m": 2.53,
+    "plaza_m2": 0.0,
+    "basal_acropolis_m": 1.61,
+    "has_sacbe_hint": false,
+    "has_aguada": true,
+    "chm_med_m": 25.03,
+    "chm_p90_m": 33.47,
+    "cleared_frac": 0.003,
+    "dist_from_card08_km": 4.74,
+    "valid_area_m2": 57216.3,
+    "laz_pts_270m": 21418,
+    "laz_pts_per_m2": 0.374,
+    "mound_area_gt1p2m_m2": 3492.8,
+    "mound_laz_pts": 1050,
+    "mound_pts_per_m2": 0.301,
+    "pct_mound_void_gt6m": 0.2,
+    "sat_1800m_forest_pct": 100.0,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Lacanja",
+      "src": "EAAMS",
+      "dist_km": 2.49
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Lacanja",
+        "src": "EAAMS",
+        "dist_km": 2.49
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 6.45
+      },
+      "OSM": {
+        "name": "Lakan'Ha",
+        "src": "OSM",
+        "dist_km": 2.86
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 4.72
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s473_16.71405_-91.12460.npz",
+    "lc_code": "LC-02",
+    "arch_desc": "8-Mound 3-Quadrant Courtyard",
+    "badge": "UNMAPPED JUNGLE (l0s473 \u2022 +4.74 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s473",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s473_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s473_CHM.tif",
+    "lat": 16.711354,
+    "lon": -91.12475,
+    "utm_e": 699940.67,
+    "utm_n": 1848565.15,
+    "score_1m": 40.339,
+    "grammar_raw": 34.427,
+    "n_mounds": 5,
+    "n_rect": 1,
+    "n_quads": 2,
+    "mean_rect": 0.635,
+    "mean_ra": 0.364,
+    "ortho_coh": 0.616,
+    "h1_m": 2.07,
+    "h2_m": 1.73,
+    "plaza_m2": 0.0,
+    "basal_acropolis_m": 2.39,
+    "has_sacbe_hint": false,
+    "has_aguada": false,
+    "chm_med_m": 23.14,
+    "chm_p90_m": 31.73,
+    "cleared_frac": 0.0166,
+    "dist_from_card08_km": 4.77,
+    "valid_area_m2": 54218.7,
+    "laz_pts_270m": 25568,
+    "laz_pts_per_m2": 0.472,
+    "mound_area_gt1p2m_m2": 2106.1,
+    "mound_laz_pts": 910,
+    "mound_pts_per_m2": 0.432,
+    "pct_mound_void_gt6m": 0.2,
+    "sat_1800m_forest_pct": 100.0,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Lacanja",
+      "src": "EAAMS",
+      "dist_km": 2.76
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Lacanja",
+        "src": "EAAMS",
+        "dist_km": 2.76
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 6.42
+      },
+      "OSM": {
+        "name": "Lakan'Ha",
+        "src": "OSM",
+        "dist_km": 3.14
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 4.75
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s473_16.71135_-91.12475.npz",
+    "lc_code": "LC-03",
+    "arch_desc": "Linear Causeway / Terrace & Mounds",
+    "badge": "UNMAPPED JUNGLE (l0s473 \u2022 +4.77 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s473",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s473_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s473_CHM.tif",
+    "lat": 16.70949,
+    "lon": -91.121953,
+    "utm_e": 700240.97,
+    "utm_n": 1848361.65,
+    "score_1m": 49.563,
+    "grammar_raw": 44.827,
+    "n_mounds": 5,
+    "n_rect": 0,
+    "n_quads": 2,
+    "mean_rect": 0.577,
+    "mean_ra": 0.092,
+    "ortho_coh": 0.782,
+    "h1_m": 4.34,
+    "h2_m": 3.39,
+    "plaza_m2": 8751.8,
+    "basal_acropolis_m": 2.14,
+    "has_sacbe_hint": false,
+    "has_aguada": true,
+    "chm_med_m": 26.78,
+    "chm_p90_m": 34.75,
+    "cleared_frac": 0.0047,
+    "dist_from_card08_km": 5.11,
+    "valid_area_m2": 59591.1,
+    "laz_pts_270m": 25014,
+    "laz_pts_per_m2": 0.42,
+    "mound_area_gt1p2m_m2": 4862.5,
+    "mound_laz_pts": 1605,
+    "mound_pts_per_m2": 0.33,
+    "pct_mound_void_gt6m": 1.8,
+    "sat_1800m_forest_pct": 100.0,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Lacanja",
+      "src": "EAAMS",
+      "dist_km": 2.83
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Lacanja",
+        "src": "EAAMS",
+        "dist_km": 2.83
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 6.1
+      },
+      "OSM": {
+        "name": "Lakan'Ha",
+        "src": "OSM",
+        "dist_km": 3.25
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 5.08
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s473_16.70949_-91.12195.npz",
+    "lc_code": "LC-04",
+    "arch_desc": "Multi-Platform Plaza Terrace (+4.3m)",
+    "badge": "UNMAPPED JUNGLE (l0s473 \u2022 +5.11 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s474",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s474_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s474_CHM.tif",
+    "lat": 16.748612,
+    "lon": -91.207605,
+    "utm_e": 691067.06,
+    "utm_n": 1852607.01,
+    "score_1m": 68.506,
+    "grammar_raw": 48.918,
+    "n_mounds": 11,
+    "n_rect": 4,
+    "n_quads": 3,
+    "mean_rect": 0.687,
+    "mean_ra": 0.536,
+    "ortho_coh": 0.387,
+    "h1_m": 2.89,
+    "h2_m": 2.6,
+    "plaza_m2": 495.0,
+    "basal_acropolis_m": 2.16,
+    "has_sacbe_hint": false,
+    "has_aguada": true,
+    "chm_med_m": 22.56,
+    "chm_p90_m": 33.8,
+    "cleared_frac": 0.0901,
+    "dist_from_card08_km": 5.25,
+    "valid_area_m2": 60621.7,
+    "laz_pts_270m": 63489,
+    "laz_pts_per_m2": 1.047,
+    "mound_area_gt1p2m_m2": 3763.8,
+    "mound_laz_pts": 1568,
+    "mound_pts_per_m2": 0.417,
+    "pct_mound_void_gt6m": 0.1,
+    "sat_1800m_forest_pct": 96.4,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Ojos de Agua",
+      "src": "EAAMS",
+      "dist_km": 4.93
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Ojos de Agua",
+        "src": "EAAMS",
+        "dist_km": 4.93
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 15.99
+      },
+      "OSM": {
+        "name": "OSM_way_187670936",
+        "src": "OSM",
+        "dist_km": 8.61
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 5.27
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s474_16.74861_-91.20761.npz",
+    "lc_code": "LC-05",
+    "arch_desc": "11-Mound Rectangular Plaza (495 m\u00b2)",
+    "badge": "UNMAPPED JUNGLE (l0s474 \u2022 +5.25 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s474",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s474_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s474_CHM.tif",
+    "lat": 16.755877,
+    "lon": -91.210533,
+    "utm_e": 690747.54,
+    "utm_n": 1853408.18,
+    "score_1m": 72.46,
+    "grammar_raw": 51.988,
+    "n_mounds": 11,
+    "n_rect": 5,
+    "n_quads": 2,
+    "mean_rect": 0.656,
+    "mean_ra": 0.184,
+    "ortho_coh": 0.275,
+    "h1_m": 5.1,
+    "h2_m": 4.56,
+    "plaza_m2": 954.0,
+    "basal_acropolis_m": 0.96,
+    "has_sacbe_hint": false,
+    "has_aguada": true,
+    "chm_med_m": 19.68,
+    "chm_p90_m": 32.82,
+    "cleared_frac": 0.0777,
+    "dist_from_card08_km": 6.01,
+    "valid_area_m2": 70250.7,
+    "laz_pts_270m": 69407,
+    "laz_pts_per_m2": 0.988,
+    "mound_area_gt1p2m_m2": 4564.8,
+    "mound_laz_pts": 2967,
+    "mound_pts_per_m2": 0.65,
+    "pct_mound_void_gt6m": 2.2,
+    "sat_1800m_forest_pct": 97.7,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Ojos de Agua",
+      "src": "EAAMS",
+      "dist_km": 4.94
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Ojos de Agua",
+        "src": "EAAMS",
+        "dist_km": 4.94
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 16.56
+      },
+      "OSM": {
+        "name": "OSM_way_187670936",
+        "src": "OSM",
+        "dist_km": 7.99
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 6.03
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s474_16.75588_-91.21053.npz",
+    "lc_code": "LC-06",
+    "arch_desc": "11-Mound +5.1m Pyramid & 954 m\u00b2 Plaza",
+    "badge": "UNMAPPED JUNGLE (l0s474 \u2022 +6.01 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s474",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s474_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s474_CHM.tif",
+    "lat": 16.760987,
+    "lon": -91.216339,
+    "utm_e": 690123.44,
+    "utm_n": 1853968.18,
+    "score_1m": 75.029,
+    "grammar_raw": 52.013,
+    "n_mounds": 15,
+    "n_rect": 5,
+    "n_quads": 4,
+    "mean_rect": 0.612,
+    "mean_ra": 0.502,
+    "ortho_coh": 0.066,
+    "h1_m": 3.55,
+    "h2_m": 3.27,
+    "plaza_m2": 621.0,
+    "basal_acropolis_m": 2.05,
+    "has_sacbe_hint": false,
+    "has_aguada": true,
+    "chm_med_m": 24.77,
+    "chm_p90_m": 35.21,
+    "cleared_frac": 0.016,
+    "dist_from_card08_km": 6.85,
+    "valid_area_m2": 67513.9,
+    "laz_pts_270m": 73272,
+    "laz_pts_per_m2": 1.085,
+    "mound_area_gt1p2m_m2": 5116.4,
+    "mound_laz_pts": 4111,
+    "mound_pts_per_m2": 0.804,
+    "pct_mound_void_gt6m": 0.1,
+    "sat_1800m_forest_pct": 97.1,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Ojos de Agua",
+      "src": "EAAMS",
+      "dist_km": 5.43
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Ojos de Agua",
+        "src": "EAAMS",
+        "dist_km": 5.43
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 17.34
+      },
+      "OSM": {
+        "name": "OSM_way_187670936",
+        "src": "OSM",
+        "dist_km": 7.21
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 6.86
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s474_16.76099_-91.21634.npz",
+    "lc_code": "LC-07",
+    "arch_desc": "15-Mound 4-Quadrant Courtyard (621 m\u00b2)",
+    "badge": "UNMAPPED JUNGLE (l0s474 \u2022 +6.85 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s474",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s474_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s474_CHM.tif",
+    "lat": 16.7631,
+    "lon": -91.217888,
+    "utm_e": 689956.23,
+    "utm_n": 1854200.5,
+    "score_1m": 76.206,
+    "grammar_raw": 51.438,
+    "n_mounds": 17,
+    "n_rect": 6,
+    "n_quads": 4,
+    "mean_rect": 0.653,
+    "mean_ra": 0.346,
+    "ortho_coh": 0.338,
+    "h1_m": 3.2,
+    "h2_m": 2.73,
+    "plaza_m2": 1165.1,
+    "basal_acropolis_m": 1.96,
+    "has_sacbe_hint": false,
+    "has_aguada": false,
+    "chm_med_m": 21.16,
+    "chm_p90_m": 30.97,
+    "cleared_frac": 0.0657,
+    "dist_from_card08_km": 7.13,
+    "valid_area_m2": 65243.4,
+    "laz_pts_270m": 91887,
+    "laz_pts_per_m2": 1.408,
+    "mound_area_gt1p2m_m2": 3258.9,
+    "mound_laz_pts": 3745,
+    "mound_pts_per_m2": 1.149,
+    "pct_mound_void_gt6m": 0.0,
+    "sat_1800m_forest_pct": 97.5,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Ojos de Agua",
+      "src": "EAAMS",
+      "dist_km": 5.57
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Ojos de Agua",
+        "src": "EAAMS",
+        "dist_km": 5.57
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 17.58
+      },
+      "OSM": {
+        "name": "OSM_way_187670936",
+        "src": "OSM",
+        "dist_km": 6.97
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Plan de Ayutla (Tovalin 2004; Martos 2009)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 7.13
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s474_16.76310_-91.21789.npz",
+    "lc_code": "LC-08",
+    "arch_desc": "17-Mound Orthogonal Plaza (1,165 m\u00b2)",
+    "badge": "UNMAPPED JUNGLE (l0s474 \u2022 +7.13 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s474",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s474_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s474_CHM.tif",
+    "lat": 16.773689,
+    "lon": -91.225279,
+    "utm_e": 689157.65,
+    "utm_n": 1855365.34,
+    "score_1m": 76.026,
+    "grammar_raw": 55.947,
+    "n_mounds": 14,
+    "n_rect": 5,
+    "n_quads": 4,
+    "mean_rect": 0.64,
+    "mean_ra": 0.309,
+    "ortho_coh": 0.431,
+    "h1_m": 5.16,
+    "h2_m": 3.66,
+    "plaza_m2": 391.0,
+    "basal_acropolis_m": 2.06,
+    "has_sacbe_hint": false,
+    "has_aguada": true,
+    "chm_med_m": 16.11,
+    "chm_p90_m": 30.03,
+    "cleared_frac": 0.0626,
+    "dist_from_card08_km": 8.51,
+    "valid_area_m2": 64745.5,
+    "laz_pts_270m": 124571,
+    "laz_pts_per_m2": 1.924,
+    "mound_area_gt1p2m_m2": 5837.9,
+    "mound_laz_pts": 10188,
+    "mound_pts_per_m2": 1.745,
+    "pct_mound_void_gt6m": 0.0,
+    "sat_1800m_forest_pct": 98.8,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "OSM_way_187670936",
+      "src": "OSM",
+      "dist_km": 5.91
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Plan de Ayutla",
+        "src": "EAAMS",
+        "dist_km": 5.94
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 18.77
+      },
+      "OSM": {
+        "name": "OSM_way_187670936",
+        "src": "OSM",
+        "dist_km": 5.91
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Plan de Ayutla (Tovalin 2004; Martos 2009)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 6.04
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s474_16.77369_-91.22528.npz",
+    "lc_code": "LC-09",
+    "arch_desc": "14-Mound +5.2m Terraced Acropolis",
+    "badge": "UNMAPPED JUNGLE (l0s474 \u2022 +8.51 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s475",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s475_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s475_CHM.tif",
+    "lat": 16.77852,
+    "lon": -91.234685,
+    "utm_e": 688150.1,
+    "utm_n": 1855891.04,
+    "score_1m": 70.223,
+    "grammar_raw": 58.439,
+    "n_mounds": 8,
+    "n_rect": 2,
+    "n_quads": 3,
+    "mean_rect": 0.639,
+    "mean_ra": 0.223,
+    "ortho_coh": 0.481,
+    "h1_m": 5.5,
+    "h2_m": 4.94,
+    "plaza_m2": 764.0,
+    "basal_acropolis_m": 3.82,
+    "has_sacbe_hint": false,
+    "has_aguada": true,
+    "chm_med_m": 17.21,
+    "chm_p90_m": 26.07,
+    "cleared_frac": 0.0984,
+    "dist_from_card08_km": 9.61,
+    "valid_area_m2": 53840.5,
+    "laz_pts_270m": 72837,
+    "laz_pts_per_m2": 1.353,
+    "mound_area_gt1p2m_m2": 5834.7,
+    "mound_laz_pts": 8873,
+    "mound_pts_per_m2": 1.521,
+    "pct_mound_void_gt6m": 0.0,
+    "sat_1800m_forest_pct": 98.0,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "OSM_way_187670936",
+      "src": "OSM",
+      "dist_km": 4.84
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Plan de Ayutla",
+        "src": "EAAMS",
+        "dist_km": 4.87
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 19.9
+      },
+      "OSM": {
+        "name": "OSM_way_187670936",
+        "src": "OSM",
+        "dist_km": 4.84
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Plan de Ayutla (Tovalin 2004; Martos 2009)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 4.96
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s475_16.77852_-91.23468.npz",
+    "lc_code": "LC-10",
+    "arch_desc": "8-Mound +5.5m Temple & 764 m\u00b2 Plaza",
+    "badge": "UNMAPPED JUNGLE (l0s475 \u2022 +9.61 km)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s475",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s475_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s475_CHM.tif",
+    "lat": 16.774798,
+    "lon": -91.258869,
+    "utm_e": 685575.52,
+    "utm_n": 1855456.34,
+    "score_1m": 60.585,
+    "grammar_raw": 50.153,
+    "n_mounds": 15,
+    "n_rect": 2,
+    "n_quads": 3,
+    "mean_rect": 0.644,
+    "mean_ra": 0.054,
+    "ortho_coh": 0.399,
+    "h1_m": 4.92,
+    "h2_m": 3.64,
+    "plaza_m2": 687.0,
+    "basal_acropolis_m": 0.6,
+    "has_sacbe_hint": false,
+    "has_aguada": false,
+    "chm_med_m": 15.24,
+    "chm_p90_m": 28.93,
+    "cleared_frac": 0.028,
+    "dist_from_card08_km": 11.39,
+    "valid_area_m2": 72739.4,
+    "laz_pts_270m": 106425,
+    "laz_pts_per_m2": 1.463,
+    "mound_area_gt1p2m_m2": 3274.0,
+    "mound_laz_pts": 3455,
+    "mound_pts_per_m2": 1.055,
+    "pct_mound_void_gt6m": 0.0,
+    "sat_1800m_forest_pct": 96.0,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "OSM_way_187670936",
+      "src": "OSM",
+      "dist_km": 2.43
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Plan de Ayutla",
+        "src": "EAAMS",
+        "dist_km": 2.46
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 22.12
+      },
+      "OSM": {
+        "name": "OSM_way_187670936",
+        "src": "OSM",
+        "dist_km": 2.43
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Plan de Ayutla (Tovalin 2004; Martos 2009)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 2.6
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s475_16.77480_-91.25887.npz",
+    "lc_code": "LC-11",
+    "arch_desc": "15-Mound +4.9m Complex (687 m\u00b2 Plaza)",
+    "badge": "PLAN DE AYUTLA PERIPHERY (2.4 km E)",
+    "badge_col": "#fbbf24"
+  },
+  {
+    "strip_id": "ChiapsCampeche_NFI_l0s477",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Campeche/Campeche/ChiapsCampeche_NFI_l0s477_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiap_Campeche_NFI_Apr2013/AMIGACarb_Chiap_Campeche_NFI_Apr2013_l0s477_CHM.tif",
+    "lat": 16.860792,
+    "lon": -91.348946,
+    "utm_e": 675893.1,
+    "utm_n": 1864890.45,
+    "score_1m": 71.03,
+    "grammar_raw": 56.382,
+    "n_mounds": 17,
+    "n_rect": 4,
+    "n_quads": 4,
+    "mean_rect": 0.586,
+    "mean_ra": 0.331,
+    "ortho_coh": 0.121,
+    "h1_m": 5.95,
+    "h2_m": 4.7,
+    "plaza_m2": 0.0,
+    "basal_acropolis_m": 4.44,
+    "has_sacbe_hint": false,
+    "has_aguada": false,
+    "chm_med_m": 14.42,
+    "chm_p90_m": 23.58,
+    "cleared_frac": 0.009,
+    "dist_from_card08_km": 24.79,
+    "valid_area_m2": 59647.9,
+    "laz_pts_270m": 57640,
+    "laz_pts_per_m2": 0.966,
+    "mound_area_gt1p2m_m2": 6272.6,
+    "mound_laz_pts": 6600,
+    "mound_pts_per_m2": 1.052,
+    "pct_mound_void_gt6m": 0.3,
+    "sat_1800m_forest_pct": 99.7,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Nuevo Chetumal - La Lucha (Healey 1950; Tovalin 2004)",
+      "src": "INAH_Lit_NAD27",
+      "dist_km": 2.95
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Esperanza",
+        "src": "EAAMS",
+        "dist_km": 10.09
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 34.93
+      },
+      "OSM": {
+        "name": "OSM_way_272264139",
+        "src": "OSM",
+        "dist_km": 11.15
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Chetumal - La Lucha (Healey 1950; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 2.95
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_ChiapsCampeche_NFI_l0s477_16.86079_-91.34895.npz",
+    "lc_code": "LC-12",
+    "arch_desc": "17-Mound +6.0m Hilltop Complex",
+    "badge": "LA LUCHA HINTERLAND (2.95 km NW)",
+    "badge_col": "#fbbf24"
+  },
+  {
+    "strip_id": "Chiaps1_GLAS_l0s449",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Chiaps1/Chiaps1_Glas/Chiaps1_Glas/Chiaps1_GLAS_l0s449_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiaps_1_GLAS_Apr2013/AMIGACarb_Chiaps_1_GLAS_Apr2013_l0s449_CHM.tif",
+    "lat": 16.718269,
+    "lon": -90.9284,
+    "utm_e": 720875.01,
+    "utm_n": 1849538.03,
+    "score_1m": 70.087,
+    "grammar_raw": 50.431,
+    "n_mounds": 23,
+    "n_rect": 5,
+    "n_quads": 4,
+    "mean_rect": 0.599,
+    "mean_ra": 0.67,
+    "ortho_coh": 0.022,
+    "h1_m": 3.66,
+    "h2_m": 3.49,
+    "plaza_m2": 0.0,
+    "basal_acropolis_m": 4.94,
+    "has_sacbe_hint": false,
+    "has_aguada": false,
+    "chm_med_m": 23.0,
+    "chm_p90_m": 30.56,
+    "cleared_frac": 0.01,
+    "dist_from_card08_km": 25.6,
+    "valid_area_m2": 68026.7,
+    "laz_pts_270m": 18943,
+    "laz_pts_per_m2": 0.278,
+    "mound_area_gt1p2m_m2": 12844.8,
+    "mound_laz_pts": 3167,
+    "mound_pts_per_m2": 0.247,
+    "pct_mound_void_gt6m": 1.3,
+    "sat_1800m_forest_pct": 99.8,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Tornillo",
+      "src": "EAAMS",
+      "dist_km": 8.86
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Tornillo",
+        "src": "EAAMS",
+        "dist_km": 8.86
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 14.64
+      },
+      "OSM": {
+        "name": "Zona arqueol\u00f3gica de Bonampak",
+        "src": "OSM",
+        "dist_km": 14.49
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 25.57
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_Chiaps1_GLAS_l0s449_16.71827_-90.92840.npz",
+    "lc_code": "LC-13",
+    "arch_desc": "23-Mound 4-Quadrant Complex (s449)",
+    "badge": "SIERRA COJOLITA JUNGLE (+25.6 km E)",
+    "badge_col": "#4ade80"
+  },
+  {
+    "strip_id": "Chiaps1_GLAS_l2s480",
+    "dem_path": "/agent/lidar/ot/west/dtm/Yuc_Chiaps1/Chiaps1_Glas/Chiaps1_Glas/Chiaps1_GLAS_l2s480_DEM_1m_v1.tif",
+    "chm_path": "/agent/lidar/work/carbon_raw_hunt/chm/extracted/AMIGACarb_Chiaps_1_GLAS_Apr2013/AMIGACarb_Chiaps_1_GLAS_Apr2013_l2s480_CHM.tif",
+    "lat": 16.530595,
+    "lon": -90.890019,
+    "utm_e": 725187.77,
+    "utm_n": 1828808.41,
+    "score_1m": 73.085,
+    "grammar_raw": 50.807,
+    "n_mounds": 18,
+    "n_rect": 5,
+    "n_quads": 3,
+    "mean_rect": 0.627,
+    "mean_ra": 0.523,
+    "ortho_coh": 0.072,
+    "h1_m": 4.07,
+    "h2_m": 3.39,
+    "plaza_m2": 464.1,
+    "basal_acropolis_m": 3.65,
+    "has_sacbe_hint": false,
+    "has_aguada": true,
+    "chm_med_m": 18.91,
+    "chm_p90_m": 30.85,
+    "cleared_frac": 0.062,
+    "dist_from_card08_km": 36.38,
+    "valid_area_m2": 72868.6,
+    "laz_pts_270m": 38568,
+    "laz_pts_per_m2": 0.529,
+    "mound_area_gt1p2m_m2": 6726.3,
+    "mound_laz_pts": 3065,
+    "mound_pts_per_m2": 0.456,
+    "pct_mound_void_gt6m": 0.0,
+    "sat_1800m_forest_pct": 100.0,
+    "passes_laz_ground_gate": true,
+    "nearest_any_known": {
+      "name": "Healy",
+      "src": "EAAMS",
+      "dist_km": 5.84
+    },
+    "nearest_by_source": {
+      "EAAMS": {
+        "name": "Healy",
+        "src": "EAAMS",
+        "dist_km": 5.84
+      },
+      "INAH_SIC": {
+        "name": "Bonampak",
+        "src": "INAH_SIC",
+        "dist_km": 26.78
+      },
+      "OSM": {
+        "name": "Zona arqueol\u00f3gica de Bonampak",
+        "src": "OSM",
+        "dist_km": 26.65
+      },
+      "INAH_Lit_NAD27": {
+        "name": "Nuevo Jalisco (Carrasco 1981; Tovalin 2004)",
+        "src": "INAH_Lit_NAD27",
+        "dist_km": 36.36
+      }
+    },
+    "cache_npz": "/agent/lidar/work/lacandon_deep_dive/cand_Chiaps1_GLAS_l2s480_16.53060_-90.89002.npz",
+    "lc_code": "LC-14",
+    "arch_desc": "18-Mound 90\u00b0 Masonry Ridge Courtyard",
+    "badge": "MONTES AZULES JUNGLE (+36.4 km SE)",
+    "badge_col": "#4ade80"
+  }
+]
