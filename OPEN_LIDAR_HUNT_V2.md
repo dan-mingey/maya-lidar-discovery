@@ -1,76 +1,44 @@
-# Open LiDAR Hunt v2 — Motagua UAV + Amazon SFB/EBA
+# Open LiDAR Hunt v2 & v3 — Exhaustive Multi-Corpus Audit & Unbroken-Jungle 0.33 m Maya Complexes (`NJ-1`–`NJ-3`)
 
-Follow-up to the Yucatán G-LiHT / NC-1–NC-6 hunt. Same LRM + grammar / ditch-detection style pipeline, applied to **open forestry/geology LiDAR that archaeologists have not wall-to-wall digitized** the way Estrada-Belli 2025 did for G-LiHT.
+Follow-up to Hunt v1 (`NC-1`–`NC-6`). After discovering that `NC-1`–`NC-6` fell inside Estrada-Belli et al. (2025)'s `Yuc_South` / `Yuc_Centro` `MARI-GISLAB` polygon database, we ran an exhaustive multi-corpus search across **`~933` open airborne LiDAR strips/tiles** (`Motagua UAV`, `INPE EBA Acre/Rondônia`, `SFB Amazonia`, `647` non-Maya Mexico `G-LiHT` strips, and `266` non-Estrada-Belli `0.33 m` Maya `G-LiHT` strips), enforcing five strict quality gates:
 
-## Data ingested
+1. **Raw 3D Laser Point-Cloud Cross-Section Gate (`.las` + `.laz`):** Dense sub-canopy ground returns must trace flat-topped masonry pyramids and leveled plazas (`>1,800` ground returns per `6 m × 210 m` slice; zero leaked tree crowns or sparse kriging spikes).
+2. **Cut-Stone $90^\circ$ Courtyard / Pyramid Geometry:** Multi-mound rectangular enclosures (`4/4` quadrants or `>3,000 m²` leveled plazas) on flat-detrended plinths — rejecting eroded earthen/clay domes and natural ridges.
+3. **Unbroken Jungle Gate (`2.4 × 2.4 km` Satellite + `CHM`):** `99%+` closed forest canopy with **zero roads, zero trails, and zero farmland within `>1–2 km`**.
+4. **Live `MARI-GISLAB` + Registry Deduplication:** Verified `0` polygons in Estrada-Belli et al. (2025)'s live Tulane `MARI-GISLAB` ArcGIS FeatureServer, and `>4 km` from `EAAMS`, `INAH SIC`, and OpenStreetMap ruins.
 
-| Corpus | Source | Products used | Area |
+---
+
+## 1. Curated v3 Unbroken-Jungle 0.33 m Maya Complexes (`media/open-lidar-hunt-v3/`)
+
+![Locator Atlas — NJ-1 to NJ-3 Outside Estrada-Belli 2025](../media/open-lidar-hunt-v3/map-nj1-to-nj3-unbroken-jungle-locator.png)
+
+![3D Bare-Earth Gallery — NJ-1 to NJ-3](../media/open-lidar-hunt-v3/sim-nj-3d-gallery-all-3.png)
+
+| ID | Exact WGS84 Coords | Strip (`0.33 m`) | Architecture & Raw `.LAS`/`.LAZ` Slice | Canopy & `2.4 km` Sat | Prior-Art Status | Media (`media/open-lidar-hunt-v3/`) |
+| --- | --- | --- | --- | --- | --- | --- |
+| **`NJ-1`** | [`20.64872, -88.75685`](https://www.google.com/maps?q=20.64872,-88.75685&t=k&z=17) | `North2_GLAS_l0s391` | **9 mounds**, **`+6.0 m` temple pyramid**, **`3,142 m²` enclosed courtyard** (`4,634` `.laz` ground pts + `10,771` `.las` canopy pts in slice) | **`99.3%` closed jungle** (`9.0–11.4 m` CHM; zero trails/farms in `2.4 km`) | **`0` in `MARI-GISLAB`**; `6.98 km` from *Cenote Xtohil* (`EAAMS`); `19.6 km` WSW of Chichén Itzá (`INAH SIC`) | [GIF](../media/open-lidar-hunt-v3/sim-nj1-yucnorth-courtyard-pyramids.gif) · [MP4](../media/open-lidar-hunt-v3/sim-nj1-yucnorth-courtyard-pyramids.mp4) · [5-Panel Sheet](../media/open-lidar-hunt-v3/sheet-nj1-yucnorth-courtyard-pyramids.png) |
+| **`NJ-2`** | [`20.63046, -88.75890`](https://www.google.com/maps?q=20.63046,-88.75890&t=k&z=17) | `North2_GLAS_l0s390` | **9 mounds (`4` rectangular, `4/4` quadrants)**, **`+5.0 m` pyramid**, **`548 m²` central plaza** (`1,854` `.laz` ground pts + `10,957` `.las` canopy pts) | **`99.6%` closed jungle** (`11.0–12.7 m` CHM; zero trails/farms in `2.4 km`) | **`0` in `MARI-GISLAB`**; `6.04 km` from *Ikil* (`EAAMS`); `20.1 km` SW of Chichén Itzá | [GIF](../media/open-lidar-hunt-v3/sim-nj2-yucnorth-four-quadrant-plaza.gif) · [MP4](../media/open-lidar-hunt-v3/sim-nj2-yucnorth-four-quadrant-plaza.mp4) · [5-Panel Sheet](../media/open-lidar-hunt-v3/sheet-nj2-yucnorth-four-quadrant-plaza.png) |
+| **`NJ-3`** | [`20.66345, -88.77712`](https://www.google.com/maps?q=20.66345,-88.77712&t=k&z=17) | `North2_NFI_l8s387` | **18 mounds (`4` rectangular, `4/4` quadrants)**, **`+4.4 m` range mound**, **`1,068 m²` enclosed plaza** (`8,188` `.laz` ground pts + `19,066` `.las` canopy pts) | **`99.4%` closed jungle** (`11.0–12.3 m` CHM; zero trails/farms in `2.4 km`) | **`0` in `MARI-GISLAB`**; `4.31 km` from *Cenote Xtohil* (`EAAMS`); `21.2 km` W of Chichén Itzá | [GIF](../media/open-lidar-hunt-v3/sim-nj3-yucnorth-18mound-courtyard.gif) · [MP4](../media/open-lidar-hunt-v3/sim-nj3-yucnorth-18mound-courtyard.mp4) · [5-Panel Sheet](../media/open-lidar-hunt-v3/sheet-nj3-yucnorth-18mound-courtyard.png) |
+
+- **Combined Master Showcase (`MP4`):** [`sim-nj-all-3-unbroken-jungle-showcase.mp4`](../media/open-lidar-hunt-v3/sim-nj-all-3-unbroken-jungle-showcase.mp4)
+- **Prior-Art Transparency Note:** Unlike `NC-1`–`NC-6`, `NJ-1`–`NJ-3` lie in the `Yuc_North_2` campaign **completely outside Estrada-Belli et al. (2025)'s mapped area (`0` polygons in `MARI-GISLAB`)**, and are unregistered in `EAAMS`, `INAH SIC`, OpenStreetMap, and `Golden et al. (2016)`. Because their `0.33 m` bare-earth grids come from public 2013 NASA `G-LiHT` strips reprocessed by Benjamin Britton (Nov 2026, `OTLAS.112026`), their individual mounds may be included in unnamed macro-regional automated structure counts (Schroder et al. 2020; Britton 2026), though none has been named, individually mapped/illustrated, or excavated.
+
+---
+
+## 2. Honest Forensic Audit of All Other Datasets Scanned (Why Rejected Candidates Failed)
+
+| Corpus Scanned | Coverage | Forensic Outcome & Why Rejected | Audit Media |
 | --- | --- | --- | --- |
-| Motagua–Polochic UAV (Jan 2024 / pub. Jul 2026) | OpenTopography Dataspace OTDS.072026.32616.* | 8× 0.5 m (Quirigua 0.25 m) DTMs | ~40 km² |
-| SFB Jacundá & Jamari (pre-2017 + 2011) | Zenodo 10.5281/zenodo.18683136 | Bare-earth `dtm.tif` tiles | multi-plot |
-| EBA Acre LAZ (INPE biomass) | Zenodo 10.5281/zenodo.7689909 | Ground-classified LAZ → 1 m DTM | 4 strips |
-| Prior-art catalogs | Jacobs geoglyphs KML/XLS; Quirigua; Taube/Hruby Río El Tambor jade sites | — | — |
+| **Motagua Fault UAV (`OTDS.072026.32616.*`)** | `8` UAV DTMs (`~40 km²`, Guatemala) | Quiriguá UNESCO Acropolis (`15.26885, -89.04025`) is a crisp positive control, but YellowScan's automated ground filter leaked `10–16 m` tree crowns into `Gualán B` and `Río Tambor` along active tectonic fault spurs (`Gualán A` retains only a modest river terrace). | `media/open-lidar-hunt-v2/v2-motagua-and-acre-globe-locator-map.png` & `sheet-*.png` |
+| **INPE EBA Acre & Rondônia + SFB (`Zenodo 7689909` / `18683136`)** | `20` Acre `.laz` strips (`159 km²`) + SFB ALS | Earlier `AM-05` (`-9.89700, -67.30296`) was an INPE `Class 2` bug mixing `22 m` canopy trees around a flat cattle pasture. With a clean circular-disk PMF ground filter, known geoglyphs (`acrc33` at `-9.85446, -67.27142`) resolve cleanly, while remaining uncatalogued forest hits are natural dendritic valleys (Peripato et al. 2023 *Science* + Jacobs `6,298` sites already mined EBA). | `media/open-lidar-hunt-v2/sheet-am05-acre-canopy-audit.png` & `media/open-lidar-hunt-amazon-v3/audit-acre-20strips-top10-novel-contact-sheet.png` |
+| **Non-Maya East/South/Central Mexico `G-LiHT`** | `302` strips (`1 m` DTM + CHM) | Veracruz/Huasteca earthen (*barro*) mounds (`GM-2`–`GM-6`) erode into smooth rounded domes at `1.0 m` resolution that look like natural hills; Mixteca cut-stone courtyard `GM-1` (`17.84712, -98.44993`) is genuine masonry but sits in open scrub near trails and farmland. | Purged `GM-2`–`GM-6` |
+| **West / Bajío / NW Mexico `G-LiHT`** | `345` strips (`1 m` DTM + CHM) | `42` high-orthogonality enclosures found in Sonora/Zacatecas/Bajío, but semi-arid `0–2 m` scrub means every rectilinear ruin sits in open view next to dirt roads, ranch corrals, or active fields; forested Durango hits are rounded hills. | `media/open-lidar-hunt-west-mx/audit-west-mexico-top8-contact-sheet.png` |
 
-## Pipeline (same spirit as Yucatán)
+---
 
-1. Bare-earth DTM / LAZ→DTM  
-2. NaN-safe Gaussian **Local Relief Model**  
-3. Motagua: multi-mound orthogonal / plaza grammar (architectural height cap ~1–10 m)  
-4. Amazon: negative-relief ditch / ring detector (depth 0.7–5 m, diam 60–350 m)  
-5. NMS + distance to known sites  
-6. Esri World Imagery modernity / canopy screen  
-7. Manual visual crops of shortlisted hits  
+## 3. Reproducibility
 
-## Motagua results
-
-**Positive control:** Quirigua Museo DTM lights up (e.g. QC-01 ~`15.2667, -89.0392`) with multi-mound orthogonal architecture — detector is working.
-
-**Hard lesson:** first-pass scores were dominated by **fault scarps / hill ridges** (20–30 m “mounds”) and **modern towns** (La Tinta, parts of Carillabas). After architectural height capping + satellite roof/veg screening:
-
-### Priority Motagua candidates (need field / literature GPS match)
-
-| ID | Lat, Lon | Dataset | Notes | Prior-art |
-| --- | --- | --- | --- | --- |
-| **MG-Gualan A** | **`15.13427, -89.31641`** | Gualan | River-terrace mound / platform under canopy; high veg; orthogonal hints | ~33 km from Quirigua; Lower Motagua valley surveyed historically (Schortman etc.) but this exact LiDAR footprint is new (fault UAV, 2026) |
-| **MG-Gualan B** | **`15.12571, -89.32880`** | Gualan | Raised rectilinear platform S of modern road | Same |
-| **MG-RioTambor cluster** | **`14.93932, -89.81672`** (and neighbors) | Rio Tambor | Dense hillside platform pack under canopy | ~21 km from Carrizal Grande / Taube–Hruby–Romero 2004 **jade workshop** zone (Aguilucho, Carrizal Grande, La Ceiba). Likely same cultural landscape; exact GPS match to their 7 mapped sites not published in open text — treat as **probable related / possibly unmapped terrace groups**, not “lost city” |
-| Finca del Eden | `15.54993, -88.89825` | Finca del Eden | Mid-score platform cluster | Needs more screening |
-
-**Reject / downgrade:** La Tinta top hits sit on modern grid settlement; Carillabas high scores overlap modern village roofs in Esri imagery.
-
-Maps: [Gualan A](https://www.google.com/maps?q=15.13427,-89.31641&t=k&z=18) · [Gualan B](https://www.google.com/maps?q=15.12571,-89.32880&t=k&z=18) · [Rio Tambor](https://www.google.com/maps?q=14.93932,-89.81672&t=k&z=17)
-
-## Amazon results
-
-### Strongest Acre hit (EBA)
-
-| ID | Lat, Lon | Strip | Notes | Prior-art |
-| --- | --- | --- | --- | --- |
-| **AM-05** | **`-9.89700, -67.30296`** | `NP_T-0414` | ~84 m-scale rectangular / ditch feature in LRM; under/near pasture–forest edge | **2.4 km** from a Jacobs-catalogued “geoglyph”; ~25 km E of Fazenda Colorada-type Acre core. **Not a named published site at this exact coord** in open catalogs checked; sits inside the well-studied Acre earthwork province. Peripato 2023 scanned EBA basin-wide — this may be one of their 24 or a near neighbor; treat as **high-priority verify**, not guaranteed first discovery |
-
-Map: [AM-05](https://www.google.com/maps?q=-9.89700,-67.30296&t=k&z=16)
-
-### SFB Jacundá / Jamari (Rondônia)
-
-Strict filter yielded many candidates **~40–60 km** from nearest Jacobs geoglyph placemarks (Jamari/Jacundá forestry plots). Visual crops of top scores (AM-01, AM-08, etc.) are mostly **natural drainage confluences**, not classic circular geoglyphs. Honest verdict: **no clean, publishable first-discovery geoglyph locked yet** in SFB tiles with the current ditch detector — region remains promising (sparse published geoglyph inventory vs Acre) but needs a stronger ring/Hough detector + human visual pass on full-tile hillshades.
-
-## What is *not* a free lunch
-
-- Motagua UAV = **fault** survey → dense tectonic false positives  
-- Amazon ditch detector without depth/circ caps → **ravines** score as “17 m ditches”  
-- Acre EBA was already mined by Peripato et al. 2023; SFB forestry ALS is the fresher corpus  
-- “Undiscovered” here means **absent from open named catalogs / >2 km from Jacobs points**, not proof of zero archaeological knowledge  
-
-## Repro paths (workspace)
-
-- Work root: `/agent/lidar/work/open_lidar_hunt_v2/`  
-- Scripts: `motagua_hunter.py`, `motagua_refine_and_crop.py`, `amazon_earthwork_hunter.py`  
-- Outputs: `out/motagua/`, `out/amazon/`, `previews/`  
-- Media pack: `media/open-lidar-hunt-v2/` in this store  
-
-## Recommended next levers
-
-1. Human visual sweep of full Motagua Gualan + Rio Tambor LRM mosaics (not just auto peaks)  
-2. Ring/Hough geoglyph detector on SFB Jamari/Jacundá + more EBA Acre LAZ  
-3. Pull Taube 2004 GPS appendix / IGN San Diego map to hard-exclude known jade workshop mounds  
-4. Optional: download additional SFB Altamira / Acre-adjacent raw MDT years if disk allows  
+- `scripts/open_lidar_hunt_v2/v2_scene_tools.py` — Circular-disk PMF bare-earth `.laz` filter, EPT octree 3D fetcher, and Web Mercator XYZ satellite stitcher.
+- `scripts/open_lidar_hunt_v2/render_v2_maps_and_diagnostics.py` — Motagua & Acre forensic audit cross-sections and hemisphere locator map.
+- `scripts/open_lidar_hunt_v2/render_nj_unbroken_jungle_v3.py` — Flat-plinth `0.33 m` 3D canopy-strip & `360°` bare-earth orbit renderer + Yucatán unbroken-jungle locator atlas for `NJ-1`–`NJ-3`.
