@@ -1,3 +1,14 @@
+# Open LiDAR Hunt v2 (Motagua + Amazon)
+
+Follow-up scan of **OpenTopography Motagua UAV DTMs** and **Amazon SFB/EBA open ALS** using the same LRM/grammar-style pipeline. See **[OPEN_LIDAR_HUNT_V2.md](OPEN_LIDAR_HUNT_V2.md)** and `media/open-lidar-hunt-v2/`.
+
+Priority leads:
+- Motagua Gualan platforms: `15.13427, -89.31641` · `15.12571, -89.32880`
+- Motagua Rio Tambor hillside pack: `14.93932, -89.81672`
+- Amazon Acre EBA rectangle: `-9.89700, -67.30296` (AM-05; 2.4 km from a catalogued geoglyph)
+
+---
+
 # Pan-Yucatán Airborne LiDAR Maya Hunt: Six Unnamed Architectural Complexes, 3D Point-Cloud Simulations & Literature Cross-Check
 
 *End-to-end computational and visual pass across all **456** NASA G-LiHT / OpenTopography airborne LiDAR transects spanning Yucatán, Campeche, Quintana Roo, and Chiapas (`1,128.92 km²` net bare-earth coverage), paired 1-to-1 with **456** NASA `1 m` Canopy Height Models (`CHM`), **5,223** Electronic Atlas of Ancient Maya Sites (`EAAMS`) records, **INAH `SIC`** directories, **Esri World Imagery** optical satellite tiles, **`0.33 m` (`33 cm/px`)** bare-earth DEMs/G1s, and **raw 3D laser point clouds** (`.las` full canopy returns + `.laz` classified ground returns).*
